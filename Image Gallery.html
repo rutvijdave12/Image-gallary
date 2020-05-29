@@ -2,17 +2,13 @@
 <html>
 <head>
 	<title>Image Gallery</title>
-	<!-- BS3 present in this file doesn't work for glyphicons as glyphicons is in a different file-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="icon" href="image-regular.svg">
 	<link rel="stylesheet" type="text/css" href="Image Gallery.css">
 	 <script src="https://kit.fontawesome.com/2ecd0cf632.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<!-- if we want navbar to be fixed then put a "navbar-fixed" class but it will make our content i.e. jumbotron in this case go behind the navbar so we will have to add a padding(70px is the width of the navbar)-->
-	<!-- navbar-default will give a white colour navbar navbar-inverse will give a black colour navbar-->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<!--Now putting the buttons inside a container-->
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-contents" aria-expanded="false">
@@ -42,13 +38,11 @@
 	<div class="container">
 
 		<div class="jumbotron">
-			<!--Font Awesome has some vast number of icons you can use instead of glyphicon-->
 			<h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
 			<p>A bunch of beautiful images that I didn't take</p>
 		</div>
 
 		<div class="col-lg-4 col-sm-6">
-			<!-- The images are very big so we need to enclose this image tag inside a div with class="thumbnail"-->
 			<div class="thumbnail">
 				<img src="http://i.imgur.com/qK42fUu.jpg">
 			</div>
@@ -67,7 +61,6 @@
 		</div>
 
 		<div class="col-lg-4 col-sm-6">
-			<!-- The images are very big so we need to enclose this image tag inside a div with class="thumbnail"-->
 			<div class="thumbnail">
 				<img src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
 			</div>
@@ -86,7 +79,6 @@
 		</div>
 
 		<div class="col-lg-4 col-sm-6">
-			<!-- The images are very big so we need to enclose this image tag inside a div with class="thumbnail"-->
 			<div class="thumbnail">
 				<img src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
 			</div>
