@@ -1,0 +1,28 @@
+body{
+	padding-top: 70px;
+}
+
+.jumbotron{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse{
+	/*you can also write .navbar or .navbar-fixed-top*/
+	background:#2c3e50;
+}
+
+a{
+	color:white;
+}
+/* all of the buttons on nav bar are anchor tags but they cannot be used to specify a colour as it is not
+that specific as compared to the below one*/
+
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+
+/*same goes for other anchor tags */
+.navbar-inverse .navbar-nav>li>a {
+	color:white;
+}
